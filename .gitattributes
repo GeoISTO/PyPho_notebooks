@@ -1,0 +1,4 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+*.ipynb filter=nbstrip
+# see README.md for the nbstrip jq code
