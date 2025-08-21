@@ -3,20 +3,34 @@ Notebooks to illustrate [PyPho](https://github.com/GeoISTO/PyPho) usage and make
 
 ## Notebooks
 
-### Online use
+### Running the notebooks online
 
 The notebooks can be used directly online without installation.\
 This is achieved through nbviewer.
 
 Notebooks:
 
+### Running the notebooks on your computer
 
-### Local Notebooks
-The folder `notebooks/` provides Jupyter notebooks to showcase the available tools in [PyPho](https://github.com/GeoISTO/PyPho).
+The folder [notebooks/](./notebooks/) provides Jupyter notebooks to showcase the available tools in [PyPho](https://github.com/GeoISTO/PyPho).  
+To make your own tests while making sure the notebooks work you can duplicate the proposed notebooks in the same folder.  
+**Dev Note:** To avoid versionning the test notebooks, please have their name match: ```*-local.ipynb```
 
-To make your own tests while making sure the notebooks work you can duplicate the proposed notebooks in the same folder.
+For the Notebooks to work, you'll need to install pypho with the *[nb]* option (this principally install jupyter along with the other dependencies).
+1. **[optional, but recommended] Create and environment**, for example with conda, adapt the python version:
+    ```
+    conda create -c conda-forge -n pypho_nb python=3.11
+    ```
+2. **[If working with an environment] Activate the environment**:
+    ```
+    conda activate pypho_nb
+    ```
+3. **Install PyPho**:
+    ```
+    python -m pip install pypho[nb]
+    ```
 
-To avoid versionning the test notebooks, please have their name match: *-local.ipynb
+## Development
 
 ### Remove local information from the versionning
 
