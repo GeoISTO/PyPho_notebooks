@@ -5,10 +5,10 @@ Notebooks to illustrate [PyPho](https://github.com/GeoISTO/PyPho) usage and make
 
 ### Running the notebooks online
 
-The notebooks can be used directly online without installation.\
-This is achieved through nbviewer.
+The notebooks can be used directly online without installation thanks to [Binder](https://mybinder.org/).
 
 Notebooks:
+1. Minimal Example: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GeoISTO/PyPho_notebooks/HEAD?urlpath=%2Fdoc%2Ftree%2F01_minimal+example.ipynb)
 
 ### Running the notebooks on your computer
 
@@ -17,9 +17,10 @@ To make your own tests while making sure the notebooks work you can duplicate th
 **Dev Note:** To avoid versionning the test notebooks, please have their name match: ```*-local.ipynb```
 
 For the Notebooks to work, you'll need to install pypho with the *[nb]* option (this principally install jupyter along with the other dependencies).
+1. **[optional] Install [Miniforge](https://github.com/conda-forge/miniforge)** This will setup **conda** for managing environments and point only to *conda-forge*
 1. **[optional, but recommended] Create and environment**, for example with conda, adapt the python version:
     ```
-    conda create -c conda-forge -n pypho_nb python=3.11
+    conda create -c conda-forge -n pypho_nb python=3.12
     ```
 2. **[If working with an environment] Activate the environment**:
     ```

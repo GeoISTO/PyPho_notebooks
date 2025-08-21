@@ -1,1 +1,1 @@
-pypho[nb]
+pypho[nb] ; python_version >= '3.11'
