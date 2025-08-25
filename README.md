@@ -5,10 +5,23 @@ Notebooks to illustrate [PyPho](https://github.com/GeoISTO/PyPho) usage and make
 
 ### Running the notebooks online
 
+#### Binder
+
 The notebooks can be used directly online without installation thanks to [Binder](https://mybinder.org/).
 
 Notebooks:
 1. Minimal Example: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GeoISTO/PyPho_notebooks/HEAD?urlpath=%2Fdoc%2Ftree%2F01_minimal+example.ipynb)
+
+#### Devnotes:
+* trying to make a repo from [cookiecutter](https://github.com/cookiecutter/cookiecutter) and [pyvsita cookie cutter](https://github.com/pyvista/cookiecutter-pyvista-binder?tab=readme-ov-file)
+* may have to make a binder folder with proper requirements
+
+1. go to folder ```cd where_to_crete_repo```
+1. New env ```conda create -n pypho_binder python=3.12 pipx```
+1. activate ```conda activate pypho_binder```
+5. add path to git: ```set PATH=%PATH%;Path_to_Git\Git\bin```
+5. run the cookiecutter ```pipx run cookiecutter gh:pyvista/cookiecutter-pyvista-binder```
+6. Publish the created repo to Github
 
 ### Running the notebooks on your computer
 
