@@ -113,5 +113,6 @@ dmypy.json
 # Visual
 .vs
 
-# local behavior
+# local files and folders
 *-local.ipynb
+notebooks/*/generated/*
