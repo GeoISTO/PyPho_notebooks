@@ -34,7 +34,7 @@ For the Notebooks to work, you'll need to install pypho with the *[nb]* option (
 
 ## Licences
 
-The notebooks are under the [CeCILL-B licence](./Licence_CeCILL-B_V1-en.txt)
+The notebooks are under the [CeCILL-B licence](./LICENCE)
 
 The datasets are under CC-BY 4.0 licence (see [datasets/dataset_licence.txt](datasets/dataset_licence.txt)) with attribution to Gautier LAURENT (2025)
 ISTO, UMR 7327, Univ Orléans, CNRS, BRGM, OSUC, F-45071 Orléans, France
